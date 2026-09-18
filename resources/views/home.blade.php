@@ -6,14 +6,7 @@
         <h1>Current Series</h1>
         <div class="comics-grid">
             @foreach ($comics as $comic)
-                <div class="comic-card">
-                    <img
-                        class="comic-cover"
-                        src="{{ $comic['thumb'] }}"
-                        alt="{{ $comic['title'] }}"
-                    >
-                    <h3>{{ $comic['title'] }}</h3>
-                </div>
+                <x-comic-card :comic="$comic" />
             @endforeach
         </div>
     </section>
