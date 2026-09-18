@@ -1,8 +1,8 @@
-<header>
-    <div>
-        <img src="{{ asset('img/dc-logo.png') }}" alt="Logo DC comics">
+<header class="site-header">
+    <div class="header-logo">
+        <img class="logo" src="{{ asset('img/dc-logo.png') }}" alt="Logo DC comics">
     </div>
-    <nav>
+    <nav class="main-nav">
         <a href="#">CHARACTERS</a>
         <a href="#">COMICS</a>
         <a href="#">MOVIES</a>
